@@ -31,7 +31,7 @@ Por consultas, sugerencias y demás, por favor dejanos un mensaje.
             
            <div class="form-group"> 
            <div class="col-lg-10 col-lg-offset-2">  
-         <input type="submit" class="btn btn-primary" value="Send" id="submit"/>
+         <input type="submit" class="btn btn-primary" value="Enviar" id="submit"/>
          </div>
          </div>
         <input type="hidden" name='redirect_to' value="http://blog.webjeda.com/thank-you/" />
