@@ -6,15 +6,20 @@ layout: default
 
 
   <div class="row pack">
-          <div class="col-md-12">
-            <h1>Noticias</h1>
-        </div>
+    <div class="col-md-12">
+      <h1>Noticias</h1>
+    </div>
     {% for post in paginator.posts %}   
     <div class="col-md-4 card">
 
       <div class="panel panel-default">
         <div class="panel-body">
-          <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
+          <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3>
+          <span class="post-meta pull-right">
+            <small>
+            {{ post.date | date: "%-d/%-m/%Y" }}
+            </small>
+          </span>
         </div>
         {% if post.img %}
         <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
@@ -38,9 +43,7 @@ layout: default
       {% if paginator.total_pages > 1 %}
       <ul class="pagination">
         {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
-        {% else %}
-        <li><span>&laquo; Prev</span></li>
+        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Anterior</a></li>
         {% endif %}
 
         {% for page in (1..paginator.total_pages) %}
@@ -54,9 +57,7 @@ layout: default
         {% endfor %}
 
         {% if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
-        {% else %}
-        <li><span >Next &raquo;</span></li>
+        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Siguiente &raquo;</a></li>
         {% endif %}
       </ul>
       {% endif %}
