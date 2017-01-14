@@ -10,12 +10,15 @@
 		{% include main.scss %}
 		{% endcapture %}
 		{{ include_to_scssify | scssify }}
-	</style>  
+		div {
+			background-color: #77adee;
+			color: #ffffff;
+		}
+	</style>
 
 	<link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap.min.css">
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-	<link rel="stylesheet" href="/resources/demos/style.css">  
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script>
@@ -24,5 +27,5 @@
 				collapsible: true
 			});
 		} );
-	</script>	
+	</script>
 </head>
