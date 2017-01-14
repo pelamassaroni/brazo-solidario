@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jornada en barrio Lezica"
+title:  "Jornada en Lezica"
 date:   2017-01-06 20:32:00 -0300
 img: posts/2017-01-06-jornada.jpg
 ---
