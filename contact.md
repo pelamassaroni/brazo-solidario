@@ -27,7 +27,6 @@ Por consultas, sugerencias y demás, por favor dejanos un mensaje.
                <div class="col-lg-10">
                    <select class="form-control" id="reason" placeholder="1" name="reason">
                         <option>Dudas</option>
-                        <option>Quiero formar parte</option>
                         <option>Tengo una donación</option>
                         <option>Necesito una Donación</option>
                         <option>Invitación a participar</option>
@@ -52,5 +51,11 @@ Por consultas, sugerencias y demás, por favor dejanos un mensaje.
          </div>
          </div>
         <input type="hidden" name='redirect_to' value="http://{{site.url}}/gracias"/>
-    </fieldset>  
+    </fieldset>
+
+    <!-- TODO agregar link a formulario -->
+    <p style="padding: 5% 0% 5% 0%">
+        ¿Querés formar parte de la iniciativa? Podés empezar por llenar <a href="#">este formulario</a>.
+    </p>
+
 </form>
