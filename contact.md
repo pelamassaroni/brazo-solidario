@@ -33,7 +33,7 @@ Por consultas, sugerencias y demás, por favor dejanos un mensaje.
                         <option>Invitación a participar</option>
                         <option>Sugerencias sobre redes</option>
                         <option>Consulta sobre actividades</option>
-                        <option>Tu opinion nos importa</option>
+                        <option>Tu opinión nos importa</option>
                         <option>Ayudas económicas</option>
                         <option>Otros</option>                     
                    </select>
