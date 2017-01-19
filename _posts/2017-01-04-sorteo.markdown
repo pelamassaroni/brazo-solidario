@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Resultado de la rifa"
+date:   2017-01-04 15:09:00 -0300
+img: posts/2017-01-04-sorteo.jpg
+---
+
+¡Felicitaciones Amalia!
+Ella es la afortunada ganadora del primer premio de la rifa que realizamos en el mes pasado con el número 898.
+Agradecemos a todos los que participaron y esperamos contar con ustedes nuevamente este año como ya nos han sabido acompañar.
