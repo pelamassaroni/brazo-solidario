@@ -2,8 +2,9 @@
 layout: default
 ---
 
-<div class="home">
+<div id="loading" style="background:url(../images/loading.gif) no-repeat center center;width:100px;height:100px;margin-left:40%;margin-top:30%"></div>
 
+<div class="home" style="display:none">
     <div class="row">
         <div class="col-md-12">
             <h1>NOTICIAS</h1>
@@ -94,3 +95,12 @@ layout: default
     </div>
 
 </div>
+
+<script type="text/javascript">
+    $("header").hide();
+    setTimeout(function(){
+        $("#loading").hide();
+        $("header").show();
+        $(".home").slideDown("fast");
+    }, 4000);
+</script>
