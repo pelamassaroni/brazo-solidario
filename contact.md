@@ -55,7 +55,7 @@ Por consultas, sugerencias y demás, por favor dejanos un mensaje.
 
     <!-- TODO agregar link a formulario -->
     <p style="padding: 5% 0% 5% 0%">
-        ¿Querés formar parte de la iniciativa? Podés empezar por llenar <a href="https://docs.google.com/forms/d/12kTqY11KsYAf5Ll_EDOvM_4hpC3Z6cnV2arRfoNsY9s/viewform?chromeless=1&edit_requested=true" target="_blank">este formulario</a>.
+        ¿Querés formar parte de la iniciativa? Podés empezar por llenar <a href="https://goo.gl/forms/tv1LZLuBQ8nRUJdA2" target="_blank">este formulario</a>.
     </p>
 
 </form>
